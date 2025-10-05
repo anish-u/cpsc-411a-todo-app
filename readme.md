@@ -1,10 +1,8 @@
-# 📝 Jetpack Compose To-Do App
+# To-Do App
 
-A simple, polished To-Do app built with **Kotlin** and **Jetpack Compose**.  
-It demonstrates **data classes**, **state**, **remember/rememberSaveable**, and **state hoisting** with a clean, unidirectional data flow.
+A simple, polished To-Do app built with **Kotlin** and **Jetpack Compose**. It demonstrates **data classes**, **state**, **remember/rememberSaveable**, and **state hoisting** with a clean, unidirectional data flow.
 
-
-## 📱 Overview
+## Overview
 
 The app has two sections:
 
@@ -20,7 +18,7 @@ You can:
 
 
 
-## 🧩 Architecture
+## Architecture
 
 ```
 MainActivity (entry point)
@@ -41,7 +39,7 @@ TodoItem – Kotlin data class (id, label, isDone)
 UI events → ViewModel functions → state changes → UI recomposes
 
 
-## 🛠️ Implementation Details
+## Implementation Details
 
 ### Data Model
 ```kotlin
@@ -64,7 +62,7 @@ data class TodoItem(
 - Titles **“Items”** and **“Completed Items”** are always visible.
 
 
-## 📂 Project Structure (key files)
+## Project Structure (key files)
 
 ```
 app/
@@ -76,13 +74,13 @@ app/
 README.md
 ```
 
-## 🖼️ Screenshots
+## Screenshots
 
 | Empty                           | Active                            | Completing a task                               | Deleted other task                            |
 |---------------------------------|-----------------------------------|-------------------------------------------------|-----------------------------------------------|
 | ![Empty](screenshots/empty.png) | ![Active](screenshots/active.png) | ![Completed One](screenshots/completed-one.png) | ![Deleted Task](screenshots/completed.png) |
 
-## 👤 Author
+## Submission
 
 **Name:** _Anish Ummenthala_  
 **Course:** _CPSC 411 – Android Development_  
