@@ -76,9 +76,17 @@ README.md
 
 ## Screenshots
 
-| Empty                           | Active                            | Completing a task                               | Deleted other task                            |
-|---------------------------------|-----------------------------------|-------------------------------------------------|-----------------------------------------------|
-| ![Empty](screenshots/empty.png) | ![Active](screenshots/active.png) | ![Completed One](screenshots/completed-one.png) | ![Deleted Task](screenshots/completed.png) |
+### Empty task list
+![Empty](screenshots/empty.png)
+
+### Add tasks to the list
+![Active](screenshots/active.png)
+
+### Toggle single task
+![Completed One](screenshots/completed-one.png)
+
+### Delete other task
+![Deleted Task](screenshots/completed.png)
 
 ## Submission
 
